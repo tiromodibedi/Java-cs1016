@@ -49,17 +49,4 @@ public class firstProgram
 ## Semantic ERRORS vs Synatx ERRORS
 
 ## Identifiers
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* To be continued...
