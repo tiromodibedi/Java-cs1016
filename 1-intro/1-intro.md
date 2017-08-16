@@ -47,6 +47,8 @@ public class firstProgram
 	* The FirstProgram must be in a file named FirstPgram.java
     
 ## Semantic ERRORS vs Synatx ERRORS
+* syntax errors: Invalid Java code that the compiler does not understand e.g using a variable without declaring it first
+* Semantic errors: This is valid code that the compiler understands but does not do what the programmer intended. It could be the result of using wrong variables, the ring operation or operations in the wrong order.
 
 ## Identifiers
-* To be continued...
+* The names of variables, methods, classes, packages, and interfaces. Unlike literals they are not the actual values themselves but just ways to refer to them.
