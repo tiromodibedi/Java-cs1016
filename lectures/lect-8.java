@@ -5,21 +5,39 @@ public class BMI {
         public int weight;
         public double score;
         
-        public void setH(double h){
+        // create void methods in our class to set the height and weight (does not return any value)
+        // each parameter needs a type declaration as well.
+        public void setHeight(double h){
                 height = h;
         }
-        public void setW(int w){
+        public void setWeight(int w){
                 weight = w;
+        }
+        
+        public double calcBMI(){
+                score = weight / (height * height);
+                return score;
+        }
+        
+        public String category(){
+                
         }
 
 }
 
 public class testBMI {
         public static void main(String [] args){
-                // a BMI object which is an instance of the class BMI
+                // Creating a BMI object which is an instance of the BMI class
+                // 1. reserving space in memory (says this memory space is reserved)
+                // 2. constructing a BMI Instance in memory
+                // x is called a reference vaiable 
+                // 4. BMI X creates reference variable x
+                // 5. = ; this points the reference variable to the instance of the BMI in memory
                 BMI x = new BMI();
                 
-                x.setW(65);
-                x.setH(176);
+                x.setWeight(65);
+                x.setHeight(176);
+                
+                system.out.println(x.calcBMI());
         }
 }
